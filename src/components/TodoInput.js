@@ -25,7 +25,7 @@ export default class TodoInput extends Component {
             className={
               editItem
                 ? "btn btn-lg btn-block btn-success mt-3"
-                : "btn btn-primary btn-lg btn-block mt-3"
+                : "btn btn-primary btn-block text-capitalize mt-5"
             }
           >
             {editItem ? "edit item" : "add item"}
